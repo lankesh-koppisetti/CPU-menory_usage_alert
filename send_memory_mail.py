@@ -4,15 +4,14 @@ from email.mime.text import MIMEText
 sender = "k.lankesh33@gmail.com"
 
 receivers = [
-    "lankeshkoppisetti033@gmail.com",
-    "anushapasumarthi544@gmail.com"
+    "lankeshkoppisetti033@gmail.com"
 ]
 
 # Gmail App Password
 app_password = "wawdqehrxlmskdem"
 
 # Read Memory Alert File
-with open("/root/mem_usage.sh", "r") as file:
+with open("/tmp/memory_alert.txt", "r") as file:
     body = file.read()
 
 msg = MIMEText(body)

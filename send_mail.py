@@ -5,8 +5,7 @@ sender = "k.lankesh33@gmail.com"
 
 # Multiple Recipients
 receiver = [
-    "lankeshkoppisetti033@gmail.com",
-    "anushapasumarthi544@gmail.com"
+    "lankeshkoppisetti033@gmail.com"
 ]
 
 # Gmail App Password
