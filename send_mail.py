@@ -1,15 +1,15 @@
 import smtplib
 from email.mime.text import MIMEText
 
-sender = "k.lankesh33@gmail.com"
+sender = "sender@gmail.com"
 
 # Multiple Recipients
 receiver = [
-    "lankeshkoppisetti033@gmail.com"
+    "receiver@gmail.com"
 ]
 
 # Gmail App Password
-app_password = "wawdqehrxlmskdem"
+app_password = "mailapppassword"
 
 # Read Alert File
 with open("/tmp/cpu_alert.txt", "r") as file:
